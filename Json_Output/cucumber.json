@@ -1,0 +1,188 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3093300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "QA automation solution for Twitter Automation using BDD and Selenium",
+        "description": "",
+        "id": "qa-automation-solution-for-below-requirements;qa-automation-solution-for-twitter-automation-using-bdd-and-selenium",
+        "after": [
+          {
+            "result": {
+              "duration": 299600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18229643000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens twitter Login Page",
+            "match": {
+              "location": "DealStepDefnition.user_opens_twitter_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12110311300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password and clicks on login button",
+            "match": {
+              "location": "DealStepDefnition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "accname"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "cpdas5425@gmail.com",
+                  "Teradata@1234",
+                  "das_chandika"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15124886400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate profile page of logged user and upload a profile picture",
+            "match": {
+              "location": "DealStepDefnition.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2541204500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Update BIO field in profile section as Selenium Automation user",
+            "match": {
+              "location": "DealStepDefnition.user_enters_bio_on_profile_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1478448000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Update Location field in profile section as Houston, Texas",
+            "match": {
+              "location": "DealStepDefnition.user_enters_Location_on_profile_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1943468900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Update Website field in profile section as twitter.com",
+            "match": {
+              "location": "DealStepDefnition.user_enters_Website_on_profile_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7091319600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user Fetch BIO field ,location and website and check if the submit values got updated on the profile page",
+            "match": {
+              "location": "DealStepDefnition.fetch_and_veify_user_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserBio",
+                  "UserLoc",
+                  "UserWebsite"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Selenium Automation user",
+                  "Houston, Texas",
+                  "twitter.com"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1828713100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user Opens the twitter page of The Times of India and retrieve the tweets that were published in last 2 hrs",
+            "match": {
+              "location": "DealStepDefnition.user_opens_TOI_Website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7543304900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Close the browser",
+            "match": {
+              "location": "DealStepDefnition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "QA automation solution for below requirements",
+    "description": "",
+    "id": "qa-automation-solution-for-below-requirements",
+    "keyword": "Feature",
+    "uri": "src/main/java/Features/twitterTest.feature"
+  }
+]

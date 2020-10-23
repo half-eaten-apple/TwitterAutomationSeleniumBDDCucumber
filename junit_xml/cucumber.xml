@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="67.894693">
+<testcase classname="QA automation solution for below requirements" name="QA automation solution for Twitter Automation using BDD and Selenium" time="67.894693">
+<system-out><![CDATA[Given user opens twitter Login Page.........................................passed
+When user enters username and password and clicks on login button...........passed
+When Navigate profile page of logged user and upload a profile picture......passed
+Then user Update BIO field in profile section as Selenium Automation user...passed
+When user Update Location field in profile section as Houston, Texas........passed
+When user Update Website field in profile section as twitter.com............passed
+Then user Fetch BIO field ,location and website and check if the submit values got updated on the profile page.passed
+Then user Opens the twitter page of The Times of India and retrieve the tweets that were published in last 2 hrs.passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
