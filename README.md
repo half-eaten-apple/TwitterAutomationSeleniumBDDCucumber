@@ -1,6 +1,6 @@
 # TwitterAutomationSeleniumBDDCucumber
-QA automation solution for Twitter Automation using BDD and Selenium
- Please write source - QA automation solution for below requirements .That is testable and executable using bdd,cucumber etc .
+QA automation Sample Code for Twitter Automation using BDD and Selenium
+ It is testable and executable using bdd,cucumber etc and covers below major flows - 
 
 a.       Login to Twitter.com website with username and password .
 
